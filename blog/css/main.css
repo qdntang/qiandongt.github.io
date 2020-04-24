@@ -2,7 +2,7 @@ body {
     font-family: "Avenir", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
     font-weight: 400;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 16px;
 }
 
@@ -62,8 +62,8 @@ textarea {
 
 blockquote {
     margin-left: 1rem;
-    font-style: italic;
-    font-size: 1.4rem;
+    /* font-style: italic; */
+    font-size: 16px;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
     border-color: #a00;
