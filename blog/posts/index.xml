@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Qiandong&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2020 15:02:27 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 21:31:48 +0800</lastBuildDate>
     
 	<atom:link href="https://qiandongt.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Summer Intern @ UCI</title>
+      <link>https://qiandongt.github.io/blog/posts/summer-internuci/</link>
+      <pubDate>Fri, 24 Apr 2020 21:31:48 +0800</pubDate>
+      
+      <guid>https://qiandongt.github.io/blog/posts/summer-internuci/</guid>
+      <description>短暂而美好的UCI暑研生活啊</description>
+    </item>
     
     <item>
       <title>我的申请季</title>
