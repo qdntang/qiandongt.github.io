@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Qiandong&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2020 21:31:48 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 01:11:41 +0800</lastBuildDate>
     
 	<atom:link href="https://qiandongt.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Regnet</title>
+      <link>https://qiandongt.github.io/blog/posts/regnet/</link>
+      <pubDate>Mon, 25 May 2020 01:11:41 +0800</pubDate>
+      
+      <guid>https://qiandongt.github.io/blog/posts/regnet/</guid>
+      <description>Designing Network Design Spaces Motivation 手动找到优化的网络could be challenging</description>
+    </item>
     
     <item>
       <title>Summer Intern @ UCI</title>
