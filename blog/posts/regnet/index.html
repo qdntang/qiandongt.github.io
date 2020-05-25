@@ -19,6 +19,12 @@
 
 	
 	<script src="https://qiandongt.github.io/blog/js/main.js"></script>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+	onload="renderMathInElement(document.body);"></script>
+	
 </head>
 
 <body>
@@ -111,13 +117,13 @@
 <p><img src="/blog/resources/regnet/anynet-structure.png" alt="anynet-structure"></p>
 <p>AnyNetX 16自由度（4个stage，每个stage 4个参数，the number of blocks di, block width: wi, bottleneck  ration bi, group width: gi）</p>
 <p>分辨率ri=224，重复采样，直到复杂度范围在（360-400MF）获得n=500模型，每个模型做epoch=10训练</p>
-<p>AnyNetX设计空间可能性(16x128x3x6)^4=10^18可能性，目的是为了探索通用的设计原则理解和改进这个设计空间。
-$$
-AnyNet_{A} \<br>
-\xrightarrow{b_{i} = b} AnyNetX_{B} \<br>
-\xrightarrow{g_{i} = g} AnyNetX_{C} \<br>
-\xrightarrow{w_{i+1} \geq w_{i}} AnyNetX_{D} \<br>
-\xrightarrow{d_{i+1} \geq d_{i}} AnyNetX_{E} \<br>
+<p>AnyNetX设计空间可能性(16x128x3x6)^4=10^18可能性，目的是为了探索通用的设计原则理解和改进这个设计空间。</p>
+<p>$$
+AnyNet_{A}
+\xrightarrow{b_{i} = b} AnyNetX_{B}
+\xrightarrow{g_{i} = g} AnyNetX_{C}
+\xrightarrow{w_{i+1} \geq w_{i}} AnyNetX_{D}
+\xrightarrow{d_{i+1} \geq d_{i}} AnyNetX_{E}
 $$</p>
 <h3 id="the-regnet-design-space">The RegNet Design Space</h3>
 <p>从图中发现了每个block的width和index呈线性相关。
