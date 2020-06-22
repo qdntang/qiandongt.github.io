@@ -64,10 +64,11 @@ blockquote {
     margin-left: 1rem;
     /* font-style: italic; */
     font-size: 16px;
-    font-family: Georgia,bitstream charter,serif;
+    font-family: "Avenir", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
     border-left: 3px solid;
     border-color: #a00;
     padding-left: 20px;
+    opacity: 0.9;
 }
 
 blockquote cite {
